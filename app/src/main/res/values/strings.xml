@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShareSplit</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_groups">Groups</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Authentication -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="welcome_message">Welcome to ShareSplit</string>
+    <string name="sign_in_required">Please sign in to continue</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="total_owed">Total Owed</string>
+    <string name="owed_to_you">Owed to You</string>
+    <string name="recent_activities">Recent Activities</string>
+    <string name="no_groups">No groups yet. Create your first group!</string>
+    <string name="create_group">Create Group</string>
+    
+    <!-- Groups -->
+    <string name="groups_title">My Groups</string>
+    <string name="create_new_group">Create New Group</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_description">Description (Optional)</string>
+    <string name="group_members">Members</string>
+    <string name="add_member">Add Member</string>
+    <string name="member_email">Member Email</string>
+    <string name="invite_member">Invite Member</string>
+    <string name="remove_member">Remove Member</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="group_balance">Group Balance</string>
+    
+    <!-- Expenses -->
+    <string name="expenses_title">Expenses</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="edit_expense">Edit Expense</string>
+    <string name="expense_title">Expense Title</string>
+    <string name="expense_amount">Amount</string>
+    <string name="expense_date">Date</string>
+    <string name="paid_by">Paid By</string>
+    <string name="split_among">Split Among</string>
+    <string name="split_equally">Split Equally</string>
+    <string name="split_custom">Custom Split</string>
+    <string name="add_bill_image">Add Bill Image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="delete_expense">Delete Expense</string>
+    <string name="no_expenses">No expenses yet</string>
+    
+    <!-- Settlements -->
+    <string name="settlements_title">Settlements</string>
+    <string name="add_settlement">Add Settlement</string>
+    <string name="settlement_amount">Settlement Amount</string>
+    <string name="paid_to">Paid To</string>
+    <string name="settlement_date">Settlement Date</string>
+    <string name="mark_as_settled">Mark as Settled</string>
+    <string name="settlement_history">Settlement History</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="currency">Currency</string>
+    <string name="notification_preferences">Notification Preferences</string>
+    <string name="data_backup">Data Backup</string>
+    <string name="about">About</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="retry">Retry</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Notifications -->
+    <string name="new_expense_notification">New expense added to %1$s</string>
+    <string name="new_settlement_notification">New settlement in %1$s</string>
+    <string name="group_invitation_notification">You\'ve been invited to join %1$s</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_authentication">Authentication failed. Please sign in again.</string>
+    <string name="error_permission">Permission denied. Please grant required permissions.</string>
+    <string name="error_upload_failed">Failed to upload image. Please try again.</string>
+    <string name="error_invalid_amount">Please enter a valid amount.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_group_name_required">Group name is required.</string>
+    <string name="error_expense_title_required">Expense title is required.</string>
+    
+    <!-- Reports -->
+    <string name="export_summary">Export Summary</string>
+    <string name="export_as_pdf">Export as PDF</string>
+    <string name="export_as_csv">Export as CSV</string>
+    <string name="summary_report">Summary Report</string>
+    <string name="who_paid">Who Paid</string>
+    <string name="who_owes">Who Owes</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="average_per_person">Average per Person</string>
+    
+    <!-- Currency -->
+    <string name="usd">USD ($)</string>
+    <string name="eur">EUR (€)</string>
+    <string name="gbp">GBP (£)</string>
+    <string name="jpy">JPY (¥)</string>
+    <string name="cad">CAD (C$)</string>
+    <string name="aud">AUD (A$)</string>
+    <string name="inr">INR (₹)</string>
+</resources> 
