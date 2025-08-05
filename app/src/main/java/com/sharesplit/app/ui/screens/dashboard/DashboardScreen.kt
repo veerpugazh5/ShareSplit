@@ -138,6 +138,7 @@ fun SummaryCard(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GroupCard(
     group: com.sharesplit.app.data.model.Group,

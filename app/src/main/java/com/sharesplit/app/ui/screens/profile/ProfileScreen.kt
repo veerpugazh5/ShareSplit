@@ -2,6 +2,7 @@ package com.sharesplit.app.ui.screens.profile
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
@@ -117,7 +118,7 @@ fun UserInfoCard(user: User?) {
             // Profile Picture
             Surface(
                 modifier = Modifier.size(80.dp),
-                shape = MaterialTheme.shapes.circular,
+                shape = CircleShape,
                 color = MaterialTheme.colorScheme.primaryContainer
             ) {
                 Box(
@@ -159,6 +160,7 @@ fun UserInfoCard(user: User?) {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsItem(
     icon: androidx.compose.ui.graphics.vector.ImageVector,

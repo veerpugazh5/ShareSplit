@@ -63,6 +63,7 @@ fun GroupsScreen(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GroupCard(
     group: com.sharesplit.app.data.model.Group,
